@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#AFB42B"
+        android:padding="10dip">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:padding="5dip"
+        android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mostrar"
+                android:textColor="#AFB42B"
+                android:textSize="18dp"
+                android:text="Mensaje"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lblhora"
+                android:textColor="#AFB42B"
+                android:textSize="18dp"
+                android:layout_below="@+id/mostrar"
+                android:text="Hora Actual"/>
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bactualizar"
+                android:theme="@style/MyButton"
+                android:textColor="#ffffff"
+                android:layout_below="@+id/lblhora"
+                android:text="Actualizar"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
